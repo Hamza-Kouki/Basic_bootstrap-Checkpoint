@@ -1,3 +1,6 @@
+body{
+  background-image: url("../images/backround.jpg");
+}
 .avatar {
   vertical-align: middle;
   width: 200px;
@@ -9,6 +12,7 @@
 .cover{
     height: 300px;
     width :100%;
+    background-image: url("../images/backround.jpg");
 }
 .title{
   height: 100px;
@@ -50,6 +54,8 @@
   color : #00ced1;
   font-size:xx-large;
   font-weight: 600;
+  margin: 25px;
+  margin-top: 10px;
 }
 .par_1 , .par_2{
   width : 50%;
@@ -71,4 +77,19 @@
 .f-font i:hover {
   color: #00ced1;
   transform: rotate(360deg);
-  transition: all .37s;}
+  transition: all .37s;
+}
+.cadre{
+  width : 360px;
+  height : 234px;
+  background-image: url("../images/powredby.png");
+  
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+  .cadre:hover{
+   box-shadow: none;
+  }
+
+.super_cadre , .cadre{
+  margin :25px;
+}
